@@ -1,0 +1,43 @@
+This project implements a binary tree class and a class to draw the binary tree in Ruby.
+
+Class BinaryTree implements the binary tree and its basic operations (adding nodes, removing nodes, and walking the tree)
+
+Class BinaryTreeDrawer implements the code to "draw" the binary tree. This class does not draw the tree per-se but rather calculates the coordinates where each node should be drawn and calls a specified block to do the actual drawing.
+
+
+CAN I SEE THIS CODE IN ACTION?
+------------------------------
+I am glad you asked! Point your browser to http://binarytree.heroku.com to see this code in action.
+
+
+STARTING WITH THE SOURCE CODE
+-----------------------------
+* Take a look at the code samples under the samples folder. They include basic examples on how to create a binary tree, add/remove nodes, perform searches, and how to use the drawer class.
+
+* lib\binarytree.rb has the binary tree implementation.
+
+* lib\binarytreedrawer.rb has the code to draw the tree.
+
+* The unit tests under tests are also another good place to start.
+
+
+A MORE COMPREHENSIVE EXAMPLE
+----------------------------
+The web site at http://binarytree.heroku.com is a more comprehensive sample of usage. This site used HTML 5's canvas element to actually draw the binary tree on a web page.
+
+The code for this web site is also on this git repository. Run web_server.rb to get it running on your local environment. You'll need Sinatra to run this web site on your box, though. 
+
+
+EVEN MORE INFORMATION
+---------------------
+Check out this blog post for more details on how the binary tree, the binary tree drawer, and the demo web site work: http://hectorcorrea.com/Blog/Drawing-a-Binary-Tree-in-Ruby
+
+
+COMMENTS, THOUGHTS, SUGGESTIONS?
+--------------------------------
+This is my first Ruby program so very likely it does not follow Ruby's best practices or the Ruby way of doing things but it's a start. 
+
+Feel free to comment and/or reach me if you have any questions, comments, or suggestions.
+
+Hector Correa
+hector@hectorcorrea.com 

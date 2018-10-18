@@ -1,0 +1,9 @@
+task :default => [:sinatra]
+
+task :test do
+	ruby "test/ts_binarytree.rb"
+end
+
+task :sinatra do
+	ruby "web_server.rb"
+end
